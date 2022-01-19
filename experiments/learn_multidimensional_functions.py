@@ -20,7 +20,14 @@ def none_or_str(value):
 
 
 parser = argparse.ArgumentParser()
-parser.add_argument( "-E", "--experiment", choices=[ 1, 2, 3, 4, 5 ], type=int, default=None )
+parser.add_argument( "-E", "--experiment", choices=[ 1, 2, 3, 4, 5 ], type=int, default=None,
+                     help="""
+                     1: Learn the product of 2-D input components (x1 * x2).
+                     2: Learn the combined product (x1 * x2 + x3 * x4).
+                     3: Learn the separate 3-D products [x1 * x2, x1 * x3, x2 * x3].
+                     4: Learn the 2-D circular convolution [x1, x2] x [x3, x4].
+                     5: Learn the 3-D circular convolution [x1, x2, x3] x [x4, x5, x6].
+                     """ )
 parser.add_argument( "-T", "--sim_time", default=None, type=float )
 parser.add_argument( "-I", "--iterations", default=10, type=int )
 parser.add_argument( "-g", "--gain", default=1e3, type=float )
@@ -36,7 +43,14 @@ args = parser.parse_args()
 if args.experiment:
     experiment = args.experiment
 else:
-    experiment = int( input( 'Enter a number between 1 and 5: ' ) )
+    experiment = int( input( """
+                     1: Learn the product of 2-D input components (x1 * x2).
+                     2: Learn the combined product (x1 * x2 + x3 * x4).
+                     3: Learn the separate 3-D products [x1 * x2, x1 * x3, x2 * x3].
+                     4: Learn the 2-D circular convolution [x1, x2] x [x3, x4].
+                     5: Learn the 3-D circular convolution [x1, x2, x3] x [x4, x5, x6].
+                     
+                     Input a number in [1-5]:""" ) )
 if experiment == 1:
     exp_string = "PRODUCT experiment"
     exp_name = "Multiplying two numbers"

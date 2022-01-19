@@ -1,5 +1,7 @@
 # A Robust Learning Rule for Memristor-based Synapses Competitive with Supervised Learning in Standard Spiking Neural Networks
 
+![](https://github.com/Tioz90/A-Robust-Learning-Rule-for-Memristor-based-Synapses-Competitive-with-Supervised-Learning/blob/master/product.png?raw=true)
+![](https://github.com/Tioz90/A-Robust-Learning-Rule-for-Memristor-based-Synapses-Competitive-with-Supervised-Learning/blob/master/combined_products.png?raw=true)
 ![](https://github.com/Tioz90/A-Robust-Learning-Rule-for-Memristor-based-Synapses-Competitive-with-Supervised-Learning/blob/master/separate_products.png?raw=true)
 
 ## Paper

@@ -1,4 +1,5 @@
-# Learning Nonlinear Functions on Vectors using Nb Doped SrTiO3 Memristors
+# A Robust Learning Rule for Memristor-based Synapses Competitive with Supervised Learning in Standard Spiking Neural Networks
+
 
 
 ## Paper

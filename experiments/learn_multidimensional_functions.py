@@ -119,7 +119,7 @@ decoded = args.decoded
 
 print( exp_string )
 dir_name, dir_images, dir_data = make_timestamped_dir(
-        root=directory + "trevor/" + exp_name )
+        root=directory + "learn_multi-d_functions/" + exp_name )
 print( "Reserved folder", dir_name )
 
 

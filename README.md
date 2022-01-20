@@ -3,7 +3,10 @@
 ![](https://github.com/Tioz90/A-Robust-Learning-Rule-for-Memristor-based-Synapses-Competitive-with-Supervised-Learning/blob/master/product.png?raw=true)
 ![](https://github.com/Tioz90/A-Robust-Learning-Rule-for-Memristor-based-Synapses-Competitive-with-Supervised-Learning/blob/master/combined_products.png?raw=true)
 ![](https://github.com/Tioz90/A-Robust-Learning-Rule-for-Memristor-based-Synapses-Competitive-with-Supervised-Learning/blob/master/separate_products.png?raw=true)
+![](https://github.com/Tioz90/A-Robust-Learning-Rule-for-Memristor-based-Synapses-Competitive-with-Supervised-Learning/blob/master/2d_cconv.png?raw=true)
+![](https://github.com/Tioz90/A-Robust-Learning-Rule-for-Memristor-based-Synapses-Competitive-with-Supervised-Learning/blob/master/3d_cconv.png?raw=true)
 
+  
 ## Paper
 TBA
 

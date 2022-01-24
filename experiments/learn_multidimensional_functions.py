@@ -328,8 +328,8 @@ np.savetxt( dir_data + "results.csv",
                             )
                     ),
             delimiter=",",
-            header="Mean mPES error,CI mPES +,CI mPES -"
-                   "Mean PES error,CI PES +,CI PES -"
+            header="Mean mPES error,CI mPES +,CI mPES -,"
+                   "Mean PES error,CI PES +,CI PES -,"
                    "Mean NEF error,CI NEF +,CI NEF -",
             comments="" )
 
